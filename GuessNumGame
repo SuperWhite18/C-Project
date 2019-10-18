@@ -77,7 +77,7 @@ int main()
 		int i = 5;
 		while (i > 0) {
 			printf("loading ... %d\r", i);
-			Sleep(1000);
+			Sleep(1000);//引入sleep接口 实现倒计时动态化
 			i--;
 		}
 		printf("loading ... done!\n");
